@@ -32,7 +32,7 @@ img{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 24px 0
+  padding: 0 15px;
 }
 
 .navigation{
@@ -58,6 +58,10 @@ img{
 }
 .logo-span{
   color: #2E2F42;
+}
+
+.navigaiotn-item{
+  padding: 24px 0;
 }
 
 .navigation-link{
@@ -106,6 +110,7 @@ img{
 .section-one{
   background-color: #2E2F42;
   display: flex;
+  padding: 188px 0;
 }
 
 .container-one{
@@ -257,6 +262,7 @@ img{
   flex-direction: row;
   flex-wrap: wrap;
   column-gap: 24px;
+  row-gap: 48px;
 }
 
 .portfolio-item{
