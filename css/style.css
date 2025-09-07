@@ -32,6 +32,7 @@ img{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 24px 0
 }
 
 .navigation{
@@ -42,7 +43,6 @@ img{
 .nav-list{
   display: flex;
   gap: 40px;
-  padding: 24px 0px;
 }
 
 .logo{
@@ -100,7 +100,7 @@ img{
 }
 
 .section{
-  padding: 188px 0;
+  padding: 120px 0;
 }
 
 .section-one{
@@ -149,6 +149,10 @@ img{
 }
 .order-button:active{
   text-decoration: underline;
+}
+
+.section-two{
+  padding: 120px 0;
 }
 
 .title-hidden{
@@ -210,6 +214,7 @@ img{
   display: flex;
   padding: 0px;
   justify-content: space-between;
+  gap: 24px
 }
 
 .team-member{
@@ -225,6 +230,10 @@ img{
   margin-bottom: 32px;
 }
 
+.member-description{
+  padding: 32px 0;
+}
+
 .member-title{
   font-weight: 500;
   font-size: 20px;
@@ -232,6 +241,7 @@ img{
   letter-spacing: 0.02em;
   color: #2E2F42;
   margin-bottom: 8px;
+  text-align: center;
 }
 .member-subtitle{
   font-weight: 400;
@@ -239,28 +249,29 @@ img{
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
+  text-align: center;
 }
 
 .portfolio-list{
   display: flex;
-  flex-direction: column;
-  row-gap: 48px;
-  padding: 0px;
-}
-
-.portfolio-row{
-  display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 24px;
 }
 
 .portfolio-item{
   max-width: 360px;
-  border: 1px solid #E7E9FC;
+  border: 1px solid #e7e9fc;
+  border-top: none;
   padding-bottom: 32px;
 }
 
 .portfolio-img{
   margin-bottom: 32px;
+}
+
+.portfolio-description{
+  padding: 32px 16px;
 }
 
 .portfolio-title{
@@ -270,7 +281,6 @@ img{
   letter-spacing: 0.02em;
   color: #2E2F42;
   margin-bottom: 8px;
-  margin-left: 16px;
 }
 .portfolio-subtitle{
   font-weight: 400;
@@ -278,7 +288,6 @@ img{
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
-  margin-left: 16px;
 }
 
 
