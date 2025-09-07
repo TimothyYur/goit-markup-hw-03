@@ -2,10 +2,40 @@ body{
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #FFFFFF;
+  padding: 0px;
+  margin: 0px;
+}
+
+h1,h2,h3,h4,h5,p{
+  margin: 0px 0px 0px 0px;
 }
 
 ul{
   list-style: none;
+}
+
+.container{
+  max-width: 1158px;
+  margin: 0px auto;
+}
+
+.header{
+  padding: 24px 0px;
+}
+
+.header-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation{
+  display: flex;
+  align-items: center;
+}
+
+.nav-list{
+  display: flex;
+  gap: 40px;
 }
 
 .logo{
@@ -17,6 +47,7 @@ ul{
   font-family: "Raleway", sans-serif;
   text-decoration: none;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 .logo-span{
   color: #2E2F42;
@@ -41,6 +72,11 @@ ul{
   font-style: normal;
 }
 
+.contacts-list{
+  display: flex;
+  gap: 40px;
+}
+
 .contacts-link{
   font-weight: 400;
   font-size: 16px;
@@ -56,8 +92,20 @@ ul{
   color: #404bbf;
 }
 
+.section{
+  padding: 120px 0px;
+}
+
 .section-one{
   background-color: #2E2F42;
+  display: flex;
+}
+
+.container-one{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .main-title{
@@ -66,7 +114,9 @@ ul{
   line-height: 107%;
   letter-spacing: 0.02em;
   color: #FFFFFF;
-  text-align: center
+  text-align: center;
+  max-width: 496px;
+  margin-bottom: 48px;
 }
 
 .order-button{
@@ -75,6 +125,9 @@ ul{
   line-height: 150%;
   letter-spacing: 0.04em;
   color: #FFFFFF;
+  border: none;
+  width: 169px;
+  height: 56px;
   background-color: #4D5AE5;
   white-space: nowrap;
   font-family: "Roboto", sans-serif;
@@ -86,6 +139,33 @@ ul{
 .order-button:focus{
   background-color: #404BBF;
 }
+.order-button:active{
+  text-decoration: underline;
+}
+
+.visually-hidden{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.advantages-list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+}
+
+.advantages-item{
+  max-width: 264px;
+}
 
 .title{
   font-weight: 700;
@@ -95,6 +175,7 @@ ul{
   color: #2E2F42;
   text-align: center;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 .advantages-title{
   font-weight: 500;
@@ -102,6 +183,7 @@ ul{
   line-height: 120%;
   letter-spacing: 0.02em;
   color: #2E2F42;
+  margin-bottom: 8px;
 }
 .advantages-description{
   font-weight: 400;
@@ -115,8 +197,23 @@ ul{
   background-color: #F4F4FD
 }
 
+.team-list{
+  display: flex;
+  padding: 0px;
+  justify-content: space-between;
+}
+
 .team-member{
   background-color: #FFFFFF;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  border-radius: 0 0 4px 4px;
+  text-align: center;
+  padding-bottom: 32px;
+  max-width: 264px;
+}
+
+.member-img{
+  margin-bottom: 32px;
 }
 
 .member-title{
@@ -124,7 +221,8 @@ ul{
   font-size: 20px;
   line-height: 120%;
   letter-spacing: 0.02em;
-  color: #2E2F42; 
+  color: #2E2F42;
+  margin-bottom: 8px;
 }
 .member-subtitle{
   font-weight: 400;
@@ -134,12 +232,36 @@ ul{
   color: #434455;
 }
 
+.portfolio-list{
+  display: flex;
+  flex-direction: column;
+  row-gap: 48px;
+  padding: 0px;
+}
+
+.portfolio-row{
+  display: flex;
+  justify-content: space-between;
+}
+
+.portfolio-item{
+  max-width: 360px;
+  border: 1px solid #E7E9FC;
+  padding-bottom: 32px;
+}
+
+.portfolio-img{
+  margin-bottom: 32px;
+}
+
 .portfolio-title{
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
   letter-spacing: 0.02em;
-  color: #2E2F42; 
+  color: #2E2F42;
+  margin-bottom: 8px;
+  margin-left: 16px;
 }
 .portfolio-subtitle{
   font-weight: 400;
@@ -147,11 +269,13 @@ ul{
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
+  margin-left: 16px;
 }
 
 
 .footer{
   background-color: #2E2F42;
+  padding: 120px 0px;
 }
 .footer-logo{
   font-weight: 700;
@@ -173,4 +297,6 @@ ul{
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #F4F4FD;
+  max-width: 264px;
+  margin-top: 16px;
 }
