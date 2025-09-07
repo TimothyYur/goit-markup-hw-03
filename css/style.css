@@ -25,7 +25,8 @@ img{
 }
 
 .header{
-  border-bottom: 1px solid #e7e9fc
+  border-bottom: 1px solid #e7e9fc;
+  padding: 24px 0;
 }
 
 .header-container{
@@ -33,19 +34,18 @@ img{
   justify-content: space-between;
   align-items: center;
   padding: 0 15px;
-  padding: 24px 0;
 }
 
 .navigation{
   display: flex;
   align-items: center;
-  padding: 24px 0;
+  /* padding: 24px 0; */
 }
 
 .nav-list{
   display: flex;
   gap: 40px;
-  padding: 24px 0;
+  /* padding: 24px 0; */
 }
 
 .logo{
@@ -70,6 +70,7 @@ img{
   letter-spacing: 0.02em;
   text-decoration: none;
   color: #2E2F42;
+  padding: 24px 0;
 }
 .navigation-link:hover{
   color: #404bbf;
@@ -80,7 +81,7 @@ img{
 
 .contacts{
   font-style: normal;
-  padding: 24px 0;
+  /* padding: 24px 0; */
 }
 
 .contacts-list{
