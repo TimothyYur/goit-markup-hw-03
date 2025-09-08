@@ -12,6 +12,8 @@ h1,h2,h3,h4,h5,p{
 
 ul{
   list-style: none;
+  margin: 0;
+  padding-left: 0;
 }
 
 img{
@@ -26,7 +28,6 @@ img{
 
 .header{
   border-bottom: 1px solid #e7e9fc;
-  padding: 24px 0;
 }
 
 .header-container{
@@ -69,6 +70,7 @@ img{
   text-decoration: none;
   color: #2E2F42;
   padding: 24px 0;
+  display: block;
 }
 .navigation-link:hover{
   color: #404bbf;
@@ -225,12 +227,6 @@ img{
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   border-radius: 0 0 4px 4px;
   text-align: center;
-  padding-bottom: 32px;
-  max-width: 264px;
-}
-
-.member-img{
-  margin-bottom: 32px;
 }
 
 .member-description{
@@ -261,11 +257,6 @@ img{
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-}
-
-.portfolio-item{
-  max-width: 360px;
-  padding-bottom: 32px;
 }
 
 .portfolio-description{
